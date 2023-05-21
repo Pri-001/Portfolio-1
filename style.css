@@ -1,0 +1,942 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+i {
+    color: white;
+    font-size: 16px;
+    background-color: #3AAFA9;
+    border-radius: 50%;
+    padding: 5px;
+}
+body {
+    background-color: #FFFFFF;
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Taviraj', serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+
+
+/* header */
+
+.header {
+    padding: 13px 0 13px;
+}
+
+.nav {
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav, .menu {
+    display: flex;
+}
+.logo {
+    display: block;
+    background-color: #3AAFA9;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.logo-img {
+    margin: 10px 10px 10px 5px;
+}
+.logo-p {
+    width: 182px;
+    font-size: 35px;
+    line-height: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    right: 70px;
+}
+.menu-item {
+    padding-right: 30px;
+}
+.menu-link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+.contact {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+}
+.fa-user {
+    margin-right: 10px;
+}
+
+/* main */
+
+.way {
+    margin-top: 55px;
+    display: flex;
+    background-color: #3AAFA9;
+    width: 1070px;
+    margin-left: 150px;
+    border-radius: 25px;
+}
+.clock {
+    width: 316px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px 1px rgb(75, 75, 75);
+    position: relative;
+    right: 150px;
+    top: 60px;
+}
+.omega {
+    margin-top: 56px;
+    width: 413px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    color:#333333;
+}
+.line {
+    width: 95px;
+    border: 1px solid #000000;
+}
+.MATOA {
+    padding: 24px 0 16px 0;
+    width: 469px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+}
+.dis {
+    width: 74px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    text-decoration: underline; 
+    
+}
+.button-1 {
+    margin-top: 41px;
+    margin-left: 100px;
+}
+.fa-credit-card, .fa-cart-arrow-down {
+    background-color: #DEF2F1;
+    color: #3AAFA9;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.add {
+    width: 229px;
+    padding: 14px 39px 14px 39px;
+    background-color: #DEF2F1;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-right: 72px;
+}
+.cart-2 {
+    width: 139px;
+    padding: 14px 39px 14px 39px;
+    background-color: #DEF2F1;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;   
+}
+.arrow {
+    position: relative;
+    top: 30px;
+    left: 585px;
+}
+.arrow {
+    width: 200px;
+}
+.fa-chevron-left {
+    width: 60px;
+    font-size: 30px;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    background-color: #DEF2F1;
+    color: #000000;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.fa-chevron-right {
+    width: 60px;
+    font-size: 30px;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    background-color: #DEF2F1;
+    color: #000000;
+    border-radius: 10px;
+}
+
+/* discover */
+
+.now {
+    display: flex;
+    margin-top: 211px;
+    margin-bottom: 80px;
+}
+.luxuriours {
+    width: 600px;
+    background-color: #3AAFA9;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+.eyewear {
+    width: 400px;
+    padding: 30px 0px 0px 71px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #333333;
+    margin-right: 30px;
+}
+.eye, .watch {
+    font-weight: 600;
+    color: #000000;
+}
+.see {
+    width: 345px;
+    padding: 5px 0px 0px 71px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.glasses-f {
+    display: flex;
+    justify-content: space-between;
+}
+.glasses-d {
+    width: 200px;
+    padding: 5px 0px 0px 71px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    text-decoration: underline;
+}
+.glasses {
+    width: 276px;
+    max-height: 153px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.comfortable {
+    width: 600px;
+    background-color: #3AAFA9;
+    border-radius: 15px;
+}
+.watches {
+    width: 500px;
+    padding: 30px 0px 0px 164px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #333333;
+    text-align: right;
+}
+.feels {
+    width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px 0px 0px 164px;
+    text-align: right;
+}
+.glasses-d-2 {
+    width: 200px;
+    padding: 5px 0px 0px 71px;
+    margin-right: 65px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    text-decoration: underline;
+}
+
+/* monthly */
+
+.deals {
+    width: 259px;
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+}
+.watches-contract {
+    display: flex;
+}
+.singo-1 {
+    width: 210px;
+    border-radius: 10px;
+    margin-left: 29px;
+    height: 220px;
+    object-fit: cover;
+    position: relative;
+    bottom: 50px;
+}
+.maple-1, .ebony-1, .ebony-2 {
+    width: 270px;
+    background-color: #3AAFA9;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.singo-maple, .singo-ebony {
+    width: 165px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    padding: 0px 0px 5px 24px;
+}
+.off {
+    width: 90px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    padding: 0px 0px 5px 24px;
+}
+.rp1500 {
+    width: 130px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    text-decoration: line-through solid red;
+    padding: 0px 0px 5px 24px;
+}
+.rp1264 {
+    width: 170px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    padding: 0px 0px 72px 24px;
+}
+.rp12640 {
+    width: 170px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    padding: 0px 0px 17px 24px;
+}
+.fa-circle {
+    background-color: #DEF2F1;
+    color: #3AAFA9;
+    border-radius: 10px;
+    font-size: 32px;
+    margin: 0px 8px 16px 24px;
+    position: relative;
+    top: 5px;
+}
+.add-2 {
+    width: 158px;
+    background-color: #DEF2F1;
+    padding: 8px 36px 8px 36px;
+    border-radius: 10px;
+}
+.maple-2 {
+    width: 270px;
+    background-color: #3AAFA9;
+    border-radius: 15px;
+}
+.anim-1 {
+    position: relative;
+    bottom: 25px;
+    opacity: 0;
+}
+.anim-1:hover {
+    opacity: 1;
+}
+.anim {
+    opacity: 0;
+}
+.anim:hover {
+    opacity: 1;
+}
+
+/* news */
+
+.recent-news {
+    width: 228px;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+}
+.travel {
+    display: flex;
+}
+.to {
+    margin-top: 109px;
+}
+.where {
+    width: 163px;
+    margin: 0px 0px 8px 113px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #777777;
+}
+.yogya {
+    width: 350px;
+    font-weight: 400;
+    margin: 0px 0px 61px 20px;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+.dis-but {
+    width: 66px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    background-color: #DEF2F1;
+    border-radius: 10px;
+    padding: 15px 47px 15px 47px;
+    margin-left: 115px;
+}
+.hat {
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #3AAFA9;
+    margin-left: 142px;
+}
+.hat-girl {
+    width: 405px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    left: 770px;
+    top: 1975px;
+    box-shadow: 8px 8px 15px 1px rgb(75, 75, 75);
+}
+
+/* catalog */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 137px;
+}
+.catalog {
+    margin-top: 162px;
+}
+.best, .tured {
+    width: 169px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+.tomia, .kambas, .sunda, .rakai, .alor, .sumba {
+    display: flex;
+    margin-bottom: 26px;
+}
+.tomia-maple {
+    width: 141px;
+    height: 141px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.maple {
+    width: 204px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #333333;
+    margin-left: 26px;
+}
+.m-1280 {
+    font-size: 28px;
+}
+.arrival {
+    width: 203px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+.rp-1280 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    text-decoration: line-through solid red;
+}
+
+/* testimonials */
+
+.test-flex {
+    display: flex;
+}
+.girl-glasses {
+    max-width: 434px;
+    max-height: 253px;
+    background-color: #3AAFA9;
+    border-radius: 20px;
+    margin-bottom: 240px;
+}
+.girl_glasses {
+    max-width: 431px;
+    max-height: 270px;
+    border-radius: 20px;
+    position: relative;
+    left: 130px;
+    top: 50px;
+    box-shadow: 8px 8px 15px 1px rgb(75, 75, 75);
+}
+.arrow-2 {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 65px;
+
+}
+.test-div {
+    margin-left: 150px;
+}
+.testimonials {
+    max-width: 231px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 58px;
+}
+.loving {
+    max-width: 480px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 34px;
+}
+.gita {
+    max-width: 139px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 2px;
+}
+.creator {
+    max-width: 206px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #777777;
+}
+
+/* instagram */
+
+.inst {
+    max-width: 540px;
+    text-transform: uppercase;
+    padding: 19px 194px 19px 194px;
+    background-color: #3AAFA9;
+    border-radius: 10px;
+    margin-left:  310px;
+    position: relative;
+    top: 33px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    color: #000000;
+}
+.inst-1 {
+    object-fit: cover;
+    width: 233px;
+    height: 233px;
+    margin-right: -5px;
+}
+
+/* sponsor */
+
+.footer {
+    background-color: #DEF2F1;
+    margin-top: 145px;
+}
+.info-f {
+    display: flex;
+    justify-content: space-between;
+}
+.spons {
+    margin-top: 80px;
+    margin-left: 30px;
+    max-width: 1100px;
+    padding: 27px 444px 27px 444px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 77px;
+    text-transform: uppercase;
+    background-color: #3AAFA9;
+    border-radius: 10px;
+    color: #333333;
+    position: relative;
+    bottom: 50px;
+}
+.adr {
+    max-width: 80px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #333333;
+}
+.str {
+    max-width: 255px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.hour {
+    max-width: 117px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #333333;
+    margin-bottom: 2px;
+}
+.mon-sun {
+    max-width: 140px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    padding-bottom: 68px;
+}
+.get-in-touch {
+    max-width: 156px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color: #333333;
+    border-bottom: 1px solid black;
+}
+.service {
+    max-width: 97px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    padding-top: 10px;
+}
+.tel {
+    width: 121px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #333333;
+    padding-top: 20px;
+    margin-left: 36px;
+}
+.thin {
+    margin-top: 30px;
+}
+.touch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.useful {
+    max-width: 148px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    color: #333333;
+    border-bottom: 1px solid black;
+}
+.link {
+    width: 185px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+}
+/* adaptive */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .logo-p {
+        right: 15px;
+    }
+    .way {
+        width: 810px;
+    }
+    .omega {
+        margin-left: -100px;
+    }
+    .line {
+        margin-left: -95px;
+    }
+    .MATOA {
+        margin-left: -95px;
+    }
+    .dis {
+        margin-left: -95px;
+    }
+    .button-1 {
+        margin-left: -100px;
+        
+    }
+    .add {
+        padding: 15px 10px 15px 10px;
+        font-size: 16px;
+    }
+    .cart-2 {
+        padding: 15px 10px 15px 10px;
+        font-size: 16px;
+        margin-left: -40px;
+    }
+    .arrow {
+        left: 285px;
+    }
+    .deals {
+        margin-left: 370px;
+    }
+    .now {
+        flex-wrap: wrap;
+        margin-left: 185px;
+    }
+    .luxuriours {
+        margin-bottom: 20px;
+    }
+    .watches-contract {
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .maple-2 {
+        margin-left: 310px;
+        margin-top: 70px;
+    }
+    .hat-girl {
+        left: 510px;
+        top: 2800px;
+    }
+    .recent-news {
+        margin-left: 370px;
+        margin-bottom: 40px;
+    }
+    .flex {
+        flex-wrap: wrap;
+        margin-left: 70px;
+    }
+    .featured {
+        margin-left: 270px;
+        margin-top: 40px;
+    }
+    .inst {
+        right: 100px;
+    }
+    .inst-1 {
+        width: 193px;
+        height: 193px;
+        top: 280px;
+    }
+    .spons {
+        right: 15px;
+        padding: 27px 444px 27px 350px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+        margin: 0;
+    }
+    .nav {
+        margin-right: -240px;
+    }
+    .way {
+        margin-left: 170px; 
+    }
+    .now {
+        display: inherit;
+    }
+    .watches-contract {
+        padding-left: 70px;
+        position: relative;
+        left: 100px;
+    }
+    .ebony-2 {
+        margin-top: 100px;
+    }
+    .maple-2 {
+        margin-top: -455px;
+    }
+    .hat-girl {
+        width: 300px;
+        height: 360px;
+        position: relative;
+        left: -85px;
+        top: 60px;
+    }
+    .hat {
+        height: 360px;
+        margin-left: -115px;
+        position: relative;
+        left: 227px;
+        top: 0px;
+    }
+    .tomia, .kambas, .sunda, .rakai, .alor, .sumba, .sunda {
+        margin-left: 270px;
+        margin-top: 40px;
+    }
+    .tured, .best, .arrival {
+        margin-left: 355px;
+    }
+    .featured {
+        margin-left: 3px;
+    }
+    .girl-glasses {
+        margin-left: 13px;
+    }
+    .test-div {
+        margin-left: 230px;
+    }
+    .inst-1 {
+        width: 144px;
+        height: 144px;
+    }
+    .photo {
+        position: relative;
+        left: 125px;
+    }
+    .inst {
+        right: 33px;
+        top: 25px;
+        padding: 10px 194px 20px 133px;
+    }
+    .footer .container {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .spons {
+       margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    
+    }
+    .nav {
+        margin-left: -90px;
+        position: relative;
+        left: 145px;
+    }
+    .logo-p {
+        right: 0;
+    }
+    .way {
+        width: 780px;
+    }
+    .watches-contract {
+        display: block;
+
+    }
+    .maple-1 {
+        margin: 0 0 0 -147px;
+    }
+    .ebony-1 {
+        margin: 111px 0px 0px -147px;
+    }
+    .ebony-2 {
+        position: relative;
+        top: -1140px;
+        height: 485px;
+        left: 456px;
+    }
+    .maple-2 {
+        position: relative;
+        bottom: 580px;
+        left: 145px;
+    }
+    .news {
+        position: relative;
+        bottom: 548px;
+        left: 80px;
+    }
+    .recent-news {
+        margin-left: 300px;
+    }
+    .catalog {
+        position: relative;
+        bottom: 540px;
+        right: 20px;
+    }
+    .test {
+        position: relative;
+        bottom: 540px;
+    }
+    .instagram {
+        position: relative;
+        bottom: 540px;
+    }
+    .inst { 
+        margin: 0;
+        position: relative;
+        left: 215px;
+        top: -13px;
+        padding: 20px 182px 20px 190px;
+    }
+    .inst-1 {
+        width: 450px;
+        height: 450px;
+        margin-left: 110px;
+        margin-right: 10px;
+        position: relative;
+        left: 25px; 
+    }
+    .footer {
+        width: 975px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
